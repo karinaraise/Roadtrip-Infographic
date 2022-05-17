@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 400vw;
+  /*dit zorgt er voor dat mn "scherm" langer wordt*/
+  min-height: 90vh;
+}
+
+.auto {
+  width: 40%;
+  margin-left: 200px;
+  bottom: 9%;
+  position: fixed;
+  z-index: 5;
+}
+
+.auto img {
+  width: 100%;
+}
+
+.autobanden {
+  width: 11%;
+  height: 11%;
+  position: fixed;
+  bottom: 50px;
+  z-index: 4;
+  animation: autobanden 1.5s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -20s);
+}
+
+.back-band {
+  left: 285px;
+}
+
+.front-band {
+  left: 655px;
+}
+
+@keyframes autobanden {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.achtergrond {
+  width: 100vw;
+  height: 97vh;
+  position: absolute;
+  z-index: -7;
+}
+
+.backgroundimg {
+  height: 100vh;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.tekstballon {
+  position: absolute;
+  top: 50px;
+  height: 400px;
+}
+
+.object1 {
+  left: 2500px;
+}
+
+.object2 {
+  left: 3650px;
+}
+
+.object3 {
+  left: 6600px;
+}
+
+.object4 {
+  left: 9400px;
+}
+
+.object5 {
+  left: 12600px;
+}
+
+.object6 {
+  height: 800px;
+  left: 15350px;
+}
+
+/*deze transition animatie uit tech les van week 3 gekopieerd*/
+.transition-test {
+  position: absolute;
+  width: 120px;
+  transition: width 2s;
+}
+
+.transition-test:hover {
+  width: 500px;
+}
+
+.normandie {
+  top: 165px;
+  left: 9455px;
+}
+
+.costa {
+  top: 318px;
+  left: 9485px;
+}
+
+.riviera {
+  top: 158px;
+  left: 9900px;
+}
+
+.croatia {
+  top: 325px;
+  left: 9870px;
+}
+
+.toscana {
+  top: 335px;
+  left: 9690px;
+}

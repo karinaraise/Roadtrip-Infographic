@@ -1,0 +1,16 @@
+--Dit is onderdeel van de eindopdracht Interface Design vak--
+
+In de code zelf heb ik, zoals afgesproken, in de comments geschreven hoe ik aan de codes ben gekomen.
+
+
+!! LET OP !!
+"index" is eerste pagina
+"index 2" is tweede pagina
+
+
+Via de map zelf, wanneer er direct op bestand "index" geklikt wordt om deze in de browser te openen, zijn de aftanden/posities niet goed zoals ik eigenlijk heb geschreven. (zie hiervoor de video "Roadtrip interface design - prototype2 - Google Chrome 2021-04-14 18-16-25". Dit is een opname die ik zelf gemaakt heb nadat ik met de codes klaar was. Helaas snap ik het niet waarom er verschil in zit. 
+Voor een betere weergave, adviseer ik u om het via Visual Studio Code te openen. Ook hoor ik het graag waarom er verschil in zit. 
+
+Ik ben benieuwd naar de feedback.
+
+-- Karina da Silva --
